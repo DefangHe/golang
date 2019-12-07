@@ -5,9 +5,9 @@ import (
 )
 
 func printest() {
-	println("test with git push")
+	fmt.Println("test with git push")
 }
 
-func main() {
+func Hdftest() {
 	printest()
 }
