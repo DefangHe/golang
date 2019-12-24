@@ -7,7 +7,7 @@ import (
 
 func test_channel(ch chan int) {
 	ch <- 1
-	fmt.Scanln("this is goroutine1")
+	_, _ = fmt.Scanln("this is goroutine1")
 	time.Sleep(time.Second)
 }
 
